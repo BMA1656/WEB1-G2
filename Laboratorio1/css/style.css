@@ -1,0 +1,255 @@
+*{
+  box-sizing: border-box;
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+input {
+  color:#858585;
+}
+
+.body {
+  display: flex;
+  background-color: white;
+  width: 108rem;
+  height: 69.8125rem;
+}
+
+.header {
+  width: 7.5rem;
+  height: 69.8125rem;
+  float: left;
+  background-color: #FFC297;
+}
+
+#logo {
+  margin: 1.25rem; 
+  margin-top: 2rem;
+}
+
+.li {
+  margin: 2.5rem;
+  margin-top: 5.75rem;
+}
+
+#setting {
+  margin: 1.0625rem;
+  margin-top: 13.125rem;
+}
+
+.hero {
+  border-right: 0.125rem #858585 solid;
+  width: 21.375rem;
+  height: 69.8125rem;
+  float: left;
+  font-size: 1.875rem;
+}
+
+.content {
+  width: 66.4375rem;
+  height: 69.8125rem;
+  float: left;    
+}
+.vector2 {
+ margin-left: 2.625rem;
+ margin-right: 2.625rem;
+ margin-top: 2.5rem;
+}
+.list2 a{
+color: black;
+}
+.list2 {
+  margin: 3.125rem;
+}
+
+.list2 img {
+  margin-right: 2.0625rem;
+}
+
+.li2 {
+  margin-top: 5.3125rem;
+}
+
+.content {
+  width: 66.4375rem;
+  height: 69.8125rem;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1.875rem;
+  padding: 1.25rem;
+}
+
+form {
+  flex: auto;
+}
+
+.edit{
+  display: inline-flex;
+}
+
+form h1 {
+  text-align: start;
+  font-size: 3.125rem;
+  margin: 2.5rem 30.5rem 2.5rem 4.375rem;
+}
+
+.personalData {
+  margin: 1.875rem;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.personalData label {
+  order: 1;
+  font-size: 1.125rem;
+
+}
+
+.personalData input {
+  order: 2;
+  width: 25.3125rem;
+  height: 4.375rem;
+  border-radius: 0.25rem;
+
+}
+.name{
+  position: relative;
+  left: 1.9375rem;
+  bottom: -0.625rem;
+}
+.lname{
+  position: relative;
+  top: -0.5625rem;  
+  right: -31.25rem;
+}
+
+#fname{
+  position: relative;
+  left: 2.375rem;
+}
+
+#lname {
+  position: relative;
+  left: 30.125rem;
+  top: -4.25rem;
+}
+.contactform{
+  display: flex;
+  flex-flow: column;
+  width:80% ;
+  margin-left: 4.125rem;
+  margin-top: -3.125rem;
+}
+.contactform label{
+  text-align: start;
+  font-size: 1.125rem;
+  padding: 0.4375rem 0rem;
+}
+.contactform input{
+  height: 4.375rem;
+  width: 54.75rem;
+  border-radius: 0.3125rem;
+}
+.location{
+  display: inline-flex;  
+  width: 100%;
+  height: auto;
+  margin-left: 4.125rem;
+  margin-top: 0.8125rem;
+}
+.city{
+  margin-right: 3.9375rem;
+}
+.city label{
+  font-size: 1.125rem;
+  position: relative;
+  left: -0.25rem;
+}
+.city select{
+  width: 25.3125rem;
+  height: 4.375rem;
+  margin-top: 0.75rem;
+  
+}
+.state label{
+  position: relative;
+  left: -0.0625rem;
+  font-size: 1.125rem;
+}
+.state select{
+  width: 25.3125rem;
+  height: 4.375rem;
+  margin-top: 0.6875rem;
+}
+.password{
+  width: 100%;
+  height: auto;
+  margin-left: 4.125rem;
+  margin-top: 0.8125rem;
+  display: flex;
+  flex-direction: column;
+}
+.password label{
+  font-size: 1.125rem;
+}
+#password{
+  width: 54.75rem;
+  height: 4.375rem;
+}
+
+.buttons{
+  display: inline;
+  margin-top: 3rem;
+}
+
+#cancel{
+  background: white;
+  color: #FF7008;
+  margin: 0.625rem 0rem 0.625rem 0rem;
+  border-color: #FF7008;
+  border-radius: 0.3125rem;
+  border-style: solid;
+  border-width: thin;
+  font-size: 1.75rem;
+  height: 3.4375rem;
+  padding: 0.6875rem 2.8125rem;
+  width: 11.25rem;
+}
+
+#save{
+  background: #FF7008;
+  color: white;
+  margin: 0.625rem 0rem 0.625rem 0.9375rem;
+  border-color: #FF7008;
+  border-radius: 0.3125rem;
+  border-style: solid;
+  border-width: thin;
+  font-size: 1.75rem;
+  height: 3.4375rem;
+  padding: 0.6875rem 2.8125rem;
+  width: 11.25rem;
+
+}
+
+.logos {
+  width: 12.6875rem;
+  height: 69.8125rem;
+  float:left;
+  display: flex;
+}
+
+.li3 {
+  margin-left: 1.75rem;
+  margin-top: 2.5rem;
+}

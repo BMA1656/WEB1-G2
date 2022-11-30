@@ -1,0 +1,112 @@
+.big-container {
+  width: 73.125rem;
+  height: 46.125rem;
+  align-items: center;
+  margin: 0 auto;
+
+  .article-headlines {
+    text-align: center;
+  }
+  
+  .article-posts {
+    display: flex;
+    gap: 1.9375rem;
+  }
+  
+  .article-images {
+    width: 23.0625rem;
+    height: 29.125rem;
+    border: 0.125rem #e6e6e6 solid;
+    a {
+      color: black;
+      font-family: $letra2;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+  .article-img2 {
+    width: 23.0625rem;
+    height: 15.625rem;
+  }
+  
+  .article-h4 {
+    margin-bottom: 1.25rem;
+    gap: 1.25rem;
+    font-family: $letra2 sans-serif;
+    font-size: 1.25rem;
+    color: #e27d60;
+  }
+  
+  .article-p {
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: justify;
+  }
+  
+  .article-box {
+    margin-left: 0.625rem;
+    margin-right: 0.3125rem;
+  }
+}
+
+
+.art-div {
+  width: 73.125rem;
+  height: 102.1875rem;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 6.25rem;
+
+  p {
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.3125rem;
+    color: #303030;
+  }
+  .article-img {
+    width: 41.875rem;
+    height: 23rem;
+    position: relative;
+    right: 0.3125rem;
+  }
+  .article-div {
+    display: flex;
+    width: 29.375rem;
+    height: 24.9375rem;
+    float: right;
+    flex-direction: column;
+  }
+  .article-div3 {
+    margin-top: 7.375rem;
+    margin-left: 12.5rem;
+  }
+  .article-content {
+    width: 48.125rem;
+    height: 7.1875rem;
+    border: 0.0625rem solid #faeee5;
+    background-color: #faeee5;
+    margin-left: 12.5rem;
+    text-align: center;
+    padding: 2.6rem;
+    p {
+      font-size: 1rem;
+      line-height: 1.1875rem;
+      color: #303030;
+      margin-top: 1.625rem;
+    }
+  }
+  .article-customer {
+    margin-left: 12.5rem;
+    margin-top: 0.625rem;
+  }
+  .article-text2 {
+    margin-top: 3.125rem;
+  }
+}

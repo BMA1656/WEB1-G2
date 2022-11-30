@@ -1,0 +1,95 @@
+.main-about {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-direction: column;
+  .card {
+    width: 55.625rem;
+    height: auto;
+
+    article {
+      width: 14.375rem;
+      height: 19.4375rem;
+      h2 {
+        font-family: $letra2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        text-align: center;
+        letter-spacing: 0.02em;
+      }
+      p {
+        font-family: $letra1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        text-align: center;
+      }
+    }
+    
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    gap: 6.25rem;
+    margin: 9.375rem 0;
+
+    .card article {
+      width: 14.375rem;
+      height: 19.4375rem;
+      h2 {
+        font-family: $letra2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        text-align: center;
+        letter-spacing: 0.02em;
+      }
+      p {
+        font-family: $letra1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.Dp2 {
+  width: 23.125rem;
+  height: 8.4375rem;
+  position: absolute;
+  left: 6rem;
+}
+.light {
+  margin: 0;
+  font-family:  $letra1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctn_lk {
+  width: 65rem;
+  height: 11.625rem;
+}
+
+
+.input_colum {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 37.3125rem;
+  gap: 2.5rem;
+}

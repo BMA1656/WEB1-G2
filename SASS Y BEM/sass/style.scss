@@ -1,0 +1,84 @@
+$list-padding: 0.625rem;
+$li-style: none;
+$letra1: "Work Sans";
+$letra2: "Libre Franklin";
+$margin-generic: 0rem auto;
+li {
+  list-style: $li-style;
+  padding: $list-padding;
+}
+ul {
+  display: flex;
+  padding: 0;
+}
+body {
+  width: 120rem;
+  height: auto;
+  margin: 0 auto;
+}
+@import "_header.scss";
+@import "_footer.scss";
+@import "_ourteam.scss";
+@import "_headline.scss";
+@import "_visit.scss";
+@import "_main-ourteam.scss";
+@import "_ask-end.scss";
+@import "_new-seller.scss";
+@import "_main-about.scss";
+@import "_text.scss";
+@import "_tratements.scss";
+@import "_services.scss";
+@import "_main-articles.scss";
+@import "_main-index.scss";
+@import "_pricing.scss";
+@import "_shop-landing.scss";
+@import "_blog.scss";
+@import "_product-nav.scss";
+@import "_main-product.scss";
+@import "_services-discount.scss";
+
+
+.Dp2 {
+  width: 23.125rem;
+  height: 8.4375rem;
+  position: absolute;
+  left: 6rem;
+}
+.light {
+  margin: 0;
+  font-family:  $letra1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctn_lk {
+  width: 65rem;
+  height: 11.625rem;
+}
+
+.input_colum {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 37.3125rem;
+  gap: 2.5rem;
+}
+
+  /*Darrel*/
+
+.ip {
+  gap: 1.25rem; 
+  display: flex;
+  flex-wrap: wrap;
+}
+/*yo*/
+.ouroffer {
+  height: 20.3125rem;
+}
+.ouroffer-img {
+  height: 20.3125rem;
+}

@@ -1,0 +1,183 @@
+.mainProduct {
+  width: 73.125rem;
+  height: 75.0625rem;
+  margin: 0rem auto;
+
+  .product-lotion {
+    width: 35.625rem;
+    height: 35.625rem;
+    margin-top: 6.3125rem;
+  }
+
+  .product-text {
+    width: 31.8125rem;
+    height: 35.625rem;
+    h3 {
+      font-family: $letra2;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.75rem;
+    }
+    .product-h3 p {
+      font-family: $letra2;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+    }
+  }
+
+
+  .product-button {
+    font-family: $letra2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    background-color: #e27d60;
+    width: 8.125rem;
+    height: 1.875rem;
+    color: white;
+    border: none;
+  }
+  
+  .product-bar {
+    margin-left: 15.3125rem;
+  }
+  
+  .product-cantidad {
+    margin-top: 2.5rem;
+  }
+  
+  .product-text2 {
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin-top: 1.875rem;
+  }
+  
+  .product-media {
+    margin-top: 1.875rem;
+  }
+  
+  .product-box {
+    margin-top: 1rem;
+    width: 31.25rem;
+    height: 2.625rem;
+    left: -0.625rem;
+    color: #ffffff;
+    background-color: #303030;
+    font-family: $letra2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+  
+  .product-text3 {
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+  }
+  
+  .product-h {
+    font-family: $letra2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #e27d60;
+  }
+  
+  .product-flex {
+    display: flex;
+    gap: 1.25rem;
+  }
+  
+  .product-review {
+    width: 35.625rem;
+    height: 13.5rem;
+  }
+  
+  .product-div4 {
+    text-align: center;
+    width: 35.625rem;
+    height: 9.75rem;
+    border: #e6e6e6 0.125rem solid;
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    p {
+        margin: 1.875rem;
+      }
+  }
+
+  .product-h6-1 {
+    font-family: $letra2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #e27d60;
+    display: inline;
+  }
+  
+  .product-h6-2 {
+    font-family: $letra1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+  }
+  
+  .Product-sell {
+    display: flex;
+    padding: 1rem 4rem;
+  }
+  
+}
+.product-div {
+    width: 73.125rem;
+    height: 46.375rem;
+    margin: 13rem auto 0rem;
+    text-align: center;
+
+
+    .product-p {
+        margin-bottom: 0.625rem;
+        font-family: $letra1;
+        font-size: 1rem;
+        color: #303030;
+      }
+      
+      .product-h2 {
+        margin-bottom: 1.25rem;
+        gap: 1.25rem;
+        font-family: $letra2 sans-serif;
+        font-size: 2.25rem;
+        color: #e27d60;
+      }
+      
+      .product-list2 {
+        display: flex;
+        gap: 1.875rem;
+        margin-top: 3.125rem;
+      }
+      
+      .product-nav {
+        width: 100%;
+        height: 4.8125rem;
+        background-color: #e27d60;
+        position: relative;
+        top: -1.125rem;
+      }
+
+  }
+  

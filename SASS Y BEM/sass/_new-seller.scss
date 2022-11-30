@@ -1,0 +1,85 @@
+
+  .newsseller_Container {
+    position: relative;
+    div img {
+      width: 100%;
+      height: auto;
+    }
+    div p {
+      color: #ffffff;
+    }
+    
+  .ouroffer-img {
+    height: 17.1875rem;
+  }
+  .container-footer {
+    position: absolute;
+    top: 4rem;
+    left: 22.625rem;
+    color: white;
+    width: 73.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .Dp {
+    width: 32%;
+    p {
+      font-family: $letra1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.125rem;
+      line-height: 1.3125rem;
+      margin: 1.25rem auto;
+    }
+    span {
+      color: #e27d60;
+    }
+  }
+  .email_i {
+    height: 2.625rem;
+    width: 35.625rem;
+    padding: 0;
+    border: none;
+    margin-left: 0.3125rem;
+    .email_i::placeholder {
+      font-size: 1.125rem;
+      color: #303030;
+      opacity: 0.3;
+    }
+  }
+  .subs {
+    height: 2.625rem;
+    width: 10.625rem;
+    margin-left: 0.625rem;
+    color: #ffffff;
+    background-color: #303030;
+    font-size: 1.125rem;
+    border: none;
+  }
+  
+
+.input_colum {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 37.3125rem;
+    gap: 2.5rem;
+    .ip {
+        gap: 1.25rem; 
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .ouroffer {
+        height: 20.3125rem;
+      }
+      .ouroffer-img {
+        height: 20.3125rem;
+      }
+      }
+
+  }
+
+  

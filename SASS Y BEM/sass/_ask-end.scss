@@ -1,0 +1,99 @@
+.aks-container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 100%;
+  height: 37.5rem;
+
+  .ask-text {
+    position: absolute;
+    width: 66.9375rem;
+    height: 25rem;
+    margin: 0 auto;
+    left: 23.4375rem;
+    top: 6.25rem;
+  }
+  .questions {
+    position: absolute;
+    width: 37.5625rem;
+    height: 16rem;
+    top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h3 {
+        font-family: $letra1;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 0;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: $letra2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        letter-spacing: 0.02em;
+        margin: 0;
+        color: #ffffff;
+      }
+      p {
+        font-family: $letra1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        margin: 0;
+        opacity: 0.5;
+        color: #ffffff;
+      }
+  }
+  .formulario {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: absolute;
+    width: 21.25rem;
+    height: 25rem;
+    padding-left: 1.875rem;
+    left: 43.75rem;
+
+    .email {
+      width: 19.375rem;
+      height: 2.625rem;
+      border: #a9a4a496 solid 0.1rem;
+      border-radius: 0.2rem;
+    }
+
+    .showmore {
+      height: 2.625rem;
+      width: 10.625rem;
+      color: #ffffff;
+      background-color: #303030;
+      font-size: 1.125rem;
+      border: none;
+    }
+
+    .contac {
+      font-family: $letra2;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .check {
+      font-family: $letra1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.75rem;
+      line-height: 0.875rem;
+    }
+  }
+}

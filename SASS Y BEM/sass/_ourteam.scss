@@ -1,0 +1,77 @@
+.ourteam {
+  width: 73.125rem;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+  h3 {
+    font-size: 1.25rem;
+    font-family: $letra2 sans-serif;
+    margin-bottom: 0.9375rem;
+  }
+  p {
+    font-family: $letra1 sans-serif;
+    color: #303030;
+    opacity: 0.5;
+  }
+  img {
+    width: 16.875rem;
+    height: 22rem;
+  }
+}
+
+.ourteam-title {
+  text-align: center;
+  margin: 0 auto;
+
+  .sub-up {
+    margin-bottom: 0.625rem;
+    font-family: $letra1;
+    font-size: 1rem;
+    color: #303030;
+  }
+  .sub-down {
+    margin-bottom: 1.25rem;
+    gap: 1.25rem;
+    font-family: $letra2;
+    font-size: 2.25rem;
+    color: #e27d60;
+  }
+  .sub-down2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+  }
+}
+.ourteam-people {
+  .ourteam-row1 {
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 2.125rem;
+  }
+
+  .ourteam-row2 {
+    display: flex;
+    gap: 1.875rem;
+  }
+
+  .ourteam-text {
+    margin-left: 1.25rem;
+  }
+}
+  .show-more {
+    margin: 0 31.25rem;
+    margin-top: 1.25rem;
+    background-color: #303030;
+    color: white;
+    font-family: $letra2, sans-serif;
+    font-size: 1.125rem;
+    padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+    border-radius: 0.1875rem;
+    border: #303030;
+  }
+  
+.img_partners {
+    width: 73.125rem;
+    margin: 0 auto;
+    margin-top: 3.75rem;
+    display: flex;
+    justify-content: space-evenly;
+  }

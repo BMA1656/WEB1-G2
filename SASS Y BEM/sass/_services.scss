@@ -1,0 +1,105 @@
+.our_services {
+  background-color: #e6e6e6;
+  height: 48.875rem;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 3.125rem;
+  margin-top: 6.25rem;
+
+  .our_servs_up {
+    display: flex;
+    padding-top: 6.25rem;
+    padding-bottom: 3.75rem;
+    width: 73.125rem;
+    margin: 0 auto;
+    gap: 1.875rem;
+  }
+
+  .our_servs_up_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+  }
+
+  .our_servs_up_img_text_our_reviews {
+    font-family: $letra1, sans-serif, light;
+    font-size: 1rem;
+    color: #303030;
+    margin-bottom: 0.625rem;
+  }
+
+  .our_servs_up_img_text {
+    font-family: $letra1, sans-serif;
+    font-size: 1.125rem;
+    color: #303030;
+  }
+
+  .our_servs_up img {
+    height: 17.5rem;
+    width: 35.625rem;
+    h2 {
+      font-family: $letra2 sans-serif;
+      font-size: 2.25rem;
+      color: #e27d60;
+      margin: 0;
+    }
+  }
+
+  .our_servs_comments {
+    display: flex;
+    width: 73.125rem;
+    height: 11.5rem;
+    margin: 0 auto;
+    gap: 1.875rem;
+  }
+
+  .our_servs_text_whit {
+    background-color: white;
+    border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
+    border-radius: 0.1875rem;
+    padding: 1.75rem;
+    font-family: $letra1, sans-serif;
+    font-size: 0.875rem;
+    color: #303030;
+  }
+
+  .our_servs_text_down_img {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    img {
+      width: 3.125rem;
+      height: 3.125rem;
+    }
+  }
+
+  h3 {
+    margin-bottom: 0.5625rem;
+    font-family: $letra2 sans-serif;
+    font-size: 0.875rem;
+    color: #e27d60;
+  }
+
+  .our_servs_text_down_img_name p {
+    margin-top: 0;
+    font-family: $letra1, sans-serif, light;
+    font-size: 0.75rem;
+    color: #303030;
+    opacity: 0.5;
+  }
+
+  .our_servs_img {
+    width: 73.125rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 30.125rem;
+    img {
+      margin-top: 2.5rem;
+      margin-left: 23.25rem;
+    }
+  }
+}
